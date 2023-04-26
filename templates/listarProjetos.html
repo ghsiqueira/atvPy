@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Projetos</title>
+</head>
+<body>
+    <h1>Lista de Projetos</h1>
+    <a href="{{ url_for('cadastrar_projeto') }}">Novo Projeto</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Descrição</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for projeto in projetos %}
+            <tr>
+                <td>{{ projeto.titulo }}</td>
+                <td>{{ projeto.descricao }}</td>
+                <td>
+                    <a href="{{ url_for('editar_projeto', id=projeto.id) }}">Editar</a>
+                    <form method="POST" action="{{ url_for('excluir_projeto', id=projeto.id) }}">
+                        <input type="submit" value="Excluir">
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

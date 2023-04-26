@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  text-align: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.users-table td,
+.users-table th {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.users-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.users-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.project-card {
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  padding: 10px;
+  margin: 0;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+.project-card .card-body {
+  padding: 10px;
+}
+
+.project-card .btn-group {
+  margin-top: 10px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.task-table td,
+.task-table th {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.task-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.task-card {
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin: 10px;
+  background-color: #fff;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  }
+  
+  .task-table td,
+  .task-table th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  }
+  
+  .task-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  }
+  
+  .task-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+  }
+  
+  .task-card {
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-card h2 {
+  padding: 10px;
+  margin: 0;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  }
+  
+  .task-card .card-body {
+  padding: 10px;
+  }
+  
+  .task-card .btn-group {
+  margin-top: 10px;
+  }

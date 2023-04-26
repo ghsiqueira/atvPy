@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <a href="{{ url_for('cadastrar_tarefa') }}">Nova Tarefa</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Descrição</th>
+                <th>Prazo</th>
+                <th>Concluída</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
